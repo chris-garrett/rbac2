@@ -2,6 +2,7 @@
   "name": "rbac2",
   "version": "1.1.0",
   "description": "Simple RBAC checker with support for context checks.",
+  "homepage": "https://github.com/peregrinejs/rbac2",
   "main": "index.js",
   "scripts": {
     "test": "PATH=$(npm bin):$PATH mocha --recursive --full-trace --bail --check-leaks --reporter list tests"
@@ -18,9 +19,13 @@
     "logic",
     "database"
   ],
-  "repository": "ramniquesingh/rbac2",
-  "author": "Ramnique Singh <mail@ramniquesingh.name> (http://twitter.com/ramniquesingh)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/peregrinejs/rbac2"
+  },
+  "author": "peregrinejs",
   "contributors": [
+    "Ramnique Singh <mail@ramniquesingh.name> (http://twitter.com/ramniquesingh)",
     "Jigar Jain <jjain91@gmail.com> (http://twitter.com/ragij)"
   ],
   "license": "MIT",
